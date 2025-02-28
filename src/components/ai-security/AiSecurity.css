@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ai-security-overview {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-block: 1rem;
+}
+
+#ai-security-overview div {
+    background-color: white;
+    width: 100%;
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 5px;
+}
+
+#ai-security-overview div p:first-child {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #9BA1A5
+}
+
+#ai-security-overview div p:last-child {
+    font-size: 0.8rem;
+}
+
+#ai-security-overview div p:nth-child(2) {
+    font-weight: bold;
+}
+
+#redShield-icon {
+    width: 1rem;
+}
+
+#block-icon {
+    width: 1.2rem;
+}
+
+#thunder-icon {
+    width: 1.3rem;
+}
+
+#bluerobo-icon {
+    width: 1.3rem;
+}
+
+#redBlocked-icon {
+    width: 1.4rem;
+}
+
+#attack-logs-and-blocked-ips-container {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-block: 1rem;
+}
+
+#attack-log-container, #blocked-ips-container {
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#attack-log-header, #blocked-ips-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#attack-log-items {
+    display: flex;
+    flex-direction: column;
+}
+
+#attack-log-heads, #attack-log-item {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-block: 0.5rem;
+    padding: 0.5rem 1rem;
+}
