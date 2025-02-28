@@ -62,8 +62,11 @@ const AiSecurity = () => {
                     </div>
                 </div>
             </div>
-            <div id="blocked-ips-container">
-                <header id="blocked-ips-header">Blocked IPs</header>
+            <div id="blocked-quarantined-ips-container">
+                <header id="blocked-quarantined-ips-header">
+                    <button id='blocked-ips-btn'>Blocked IPs</button>
+                    <button id="quarantined-ips-btn">Quarantined IPs</button>
+                </header>
                 <div id="blocked-ips-list">
                     <div className="blocked-ip-item">
                         <div id="blocked-ip-details">
