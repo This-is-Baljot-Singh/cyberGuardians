@@ -92,6 +92,27 @@ const AiSecurity = () => {
                 </div>
             </div>
         </div>
+
+        {/* <div id="incident-response-timeline-container">
+            <header id="incident-response-header">Incident Response Timeline</header>
+            <div id="timeline-container">
+                <div className="timeline-item">
+                    <p className="response-time">Just now</p>
+                    <p className="response-title">SQL Injection Attack Detected</p>
+                    <p className="response-description">AI System detected and blocked suspecious SQL patterns from IP: 192.168.1.105</p>
+                </div>
+                <div className="timeline-item">
+                    <p className="response-time">Just now</p>
+                    <p className="response-title">SQL Injection Attack Detected</p>
+                    <p className="response-description">AI System detected and blocked suspecious SQL patterns from IP: 192.168.1.105</p>
+                </div>
+                <div className="timeline-item">
+                    <p className="response-time">Just now</p>
+                    <p className="response-title">SQL Injection Attack Detected</p>
+                    <p className="response-description">AI System detected and blocked suspecious SQL patterns from IP: 192.168.1.105</p>
+                </div>
+            </div>
+        </div> */}
     </>
   )
 }
