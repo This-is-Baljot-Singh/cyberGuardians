@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#report-stats-overview-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
+    margin-block: 1rem;
+}
+
+.report-stats-div {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.report-stats-div p:first-child {
+    color: #9BA1A5;
+}
+
+#total-reports-count, #active-incidents-count, #resolution-rate {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+#threats-comparison, #active-incidents-stat, #resolution-stat {
+    font-size: 0.8rem;
+}
+
+#recent-security-reports-container, #security-sugestion, #incident-response-metrices {
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#recent-reports-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#recent-reports-header button {
+    background-color: transparent;
+    border: none;
+    color: #1D7BE7;
+    text-decoration: underline;
+}
+
+#recent-reports-header button:hover {
+    cursor: pointer;
+}
+
+#recent-reports-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#recent-report-titles {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#recent-report-titles p, .recent-report-items p {
+    width: 100%;
+    text-align: center;
+}
+
+.download-icon {
+    width: 2rem;
+}
+
+.download-btn {
+    background-color: transparent;
+    border: none
+}
+
+.download-btn:hover {
+    cursor: pointer;
+}
+
+.recent-report-items {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #7575752B;
+}
+
+#suggestion-and-metrices-container {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#security-suggestion, #response-metrices-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#response-metrices {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#response-metrices-header {
+    margin-bottom: 1rem;
+}
+
+.response-matrix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

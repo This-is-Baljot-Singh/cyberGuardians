@@ -6,6 +6,7 @@ import Dashboard from './components/dashboard/Dashboard.jsx'
 import ThreatMonitoring from './components/threat-monitoring/ThreatMonitoring.jsx'
 import VulnerabilityScanner from './components/vulnerability-scanner/VulnerabilityScanner.jsx'
 import AiSecurity from './components/ai-security/AiSecurity.jsx'
+import Reports from './components/reports/Reports.jsx'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         </div>
         <div id="right-split">
           <Overview />
-          <AiSecurity />
+          <Reports />
         </div>
       </div>
     </>
