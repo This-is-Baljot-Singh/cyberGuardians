@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#overview {
+    padding: 1vw;
+    width: 100%;
+    display: flex;   
+    background-color: white;
+    border-radius: 5px;
+}
+
+#overview-left-split, #overview-right-split {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#overview-right-split {
+    justify-content: end;
+}
+
+#overview-right-split button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#notification-icon {
+    width: 2rem;
+}
+
+#overview-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#systemStatus {
+    background-color: rgb(81, 235, 155);
+    color: rgb(0, 77, 37);
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}

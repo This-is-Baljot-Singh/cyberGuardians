@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245,245,245);
+    padding: 1vw;
+}
+
+#split-container {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    /* background-color: green; */
+}
+
+#left-split {
+    max-width: 25%;
+}
+
+#right-split {
+    width: 100%;
+}
