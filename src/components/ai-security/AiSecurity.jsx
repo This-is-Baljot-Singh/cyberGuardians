@@ -26,93 +26,57 @@ const AiSecurity = () => {
             </div>
         </div>
 
-        <div id="attack-logs-and-blocked-ips-container">
-            <div id="attack-log-container">
-                <header id="attack-log-header">Live Attack Logs</header>
-                <div id="attack-log-items">
-                    <div id="attack-log-heads">
-                        <p id="attack-log-time">Time</p>
-                        <p id="attack-log-ip">IP Address</p>
-                        <p id="attack-log-type">Type</p>
-                        <p id="attack-log-status">Status</p>
-                        <p id="attack-log-action">Action</p>
-                    </div>
-                    <div id="attack-logs">
-                        <div className="attack-log-item">
-                            <p className='attack-time'>10:30:00</p>
-                            <p className="attacked-ip">19.168.1.105</p>
-                            <p className="attack-type">SQL Injection</p>
-                            <p className="attack-status">Blocked</p>
-                            <button className="attack-action">Details</button>
-                        </div>
-                        <div className="attack-log-item">
-                            <p className='attack-time'>02:30:00</p>
-                            <p className="attacked-ip">19.168.1.105</p>
-                            <p className="attack-type">DDos Attack</p>
-                            <p className="attack-status">Investigating</p>
-                            <button className="attack-action">Details</button>
-                        </div>
-                        <div className="attack-log-item">
-                            <p className='attack-time'>11:35:00</p>
-                            <p className="attacked-ip">19.168.1.105</p>
-                            <p className="attack-type">Brute Force</p>
-                            <p className="attack-status">Resolved</p>
-                            <button className="attack-action">Details</button>
-                        </div>
+        <div id="warned-ips-container">
+            <header id="warned-ips-header">Warned IPs</header>
+            <div id="warned-ips-list">
+                <div id="warned-ips-titles">
+                    <p>IP Address</p>
+                    <p>Action</p>
+                </div>
+                <div className="warned-ip-list-item">
+                    <p className="warned-ip-address">123.1.123.32</p>
+                    <div className="warned-ip-action">
+                        <button className="block-btn">Block</button>
+                        <button className="ignore-btn">Ignore</button>
                     </div>
                 </div>
-            </div>
-            <div id="blocked-quarantined-ips-container">
-                <header id="blocked-quarantined-ips-header">
-                    <button id='blocked-ips-btn'>Blocked IPs</button>
-                    <button id="quarantined-ips-btn">Quarantined IPs</button>
-                </header>
-                <div id="blocked-ips-list">
-                    <div className="blocked-ip-item">
-                        <div id="blocked-ip-details">
-                            <p className="blocked-ip">192.168.1.105</p>
-                            <p className="blocked-time">Blocked 2m ago</p>
-                        </div>
-                        <img id='redBlocked-icon' src="/icons/redBlocked.png"/>
+                <div className="warned-ip-list-item">
+                    <p className="warned-ip-address">123.1.123.32</p>
+                    <div className="warned-ip-action">
+                        <button className="block-btn">Block</button>
+                        <button className="ignore-btn">Ignore</button>
                     </div>
-                    <div className="blocked-ip-item">
-                        <div id="blocked-ip-details">
-                            <p className="blocked-ip">192.168.1.198</p>
-                            <p className="blocked-time">Blocked 5m ago</p>
-                        </div>
-                        <img id='redBlocked-icon' src="/icons/redBlocked.png"/>
+                </div>
+                <div className="warned-ip-list-item">
+                    <p className="warned-ip-address">123.1.123.32</p>
+                    <div className="warned-ip-action">
+                        <button className="block-btn">Block</button>
+                        <button className="ignore-btn">Ignore</button>
                     </div>
-                    <div className="blocked-ip-item">
-                        <div id="blocked-ip-details">
-                            <p className="blocked-ip">192.168.1.221</p>
-                            <p className="blocked-time">Blocked 9m ago</p>
-                        </div>
-                        <img id='redBlocked-icon' src="/icons/redBlocked.png"/>
+                </div>
+                <div className="warned-ip-list-item">
+                    <p className="warned-ip-address">123.1.123.32</p>
+                    <div className="warned-ip-action">
+                        <button className="block-btn">Block</button>
+                        <button className="ignore-btn">Ignore</button>
+                    </div>
+                </div>
+                <div className="warned-ip-list-item">
+                    <p className="warned-ip-address">123.1.123.32</p>
+                    <div className="warned-ip-action">
+                        <button className="block-btn">Block</button>
+                        <button className="ignore-btn">Ignore</button>
+                    </div>
+                </div>
+                <div className="warned-ip-list-item">
+                    <p className="warned-ip-address">123.1.123.32</p>
+                    <div className="warned-ip-action">
+                        <button className="block-btn">Block</button>
+                        <button className="ignore-btn">Ignore</button>
                     </div>
                 </div>
             </div>
         </div>
-
-        {/* <div id="incident-response-timeline-container">
-            <header id="incident-response-header">Incident Response Timeline</header>
-            <div id="timeline-container">
-                <div className="timeline-item">
-                    <p className="response-time">Just now</p>
-                    <p className="response-title">SQL Injection Attack Detected</p>
-                    <p className="response-description">AI System detected and blocked suspecious SQL patterns from IP: 192.168.1.105</p>
-                </div>
-                <div className="timeline-item">
-                    <p className="response-time">Just now</p>
-                    <p className="response-title">SQL Injection Attack Detected</p>
-                    <p className="response-description">AI System detected and blocked suspecious SQL patterns from IP: 192.168.1.105</p>
-                </div>
-                <div className="timeline-item">
-                    <p className="response-time">Just now</p>
-                    <p className="response-title">SQL Injection Attack Detected</p>
-                    <p className="response-description">AI System detected and blocked suspecious SQL patterns from IP: 192.168.1.105</p>
-                </div>
-            </div>
-        </div> */}
     </>
   )
 }

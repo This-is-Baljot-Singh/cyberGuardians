@@ -155,3 +155,63 @@
     background-color: white;
     padding: 0.8rem 1rem;
 }
+
+#warned-ips-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#warned-ips-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#warned-ips-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#warned-ips-titles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#warned-ips-titles p {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.warned-ip-list-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid #9BA1A5;
+}
+
+.warned-ip-list-item p, .warned-ip-action {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.warned-ip-action {
+    display: flex;
+    gap: 3rem;
+}
+
+.warned-ip-action button {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.warned-ip-action button:hover {
+    cursor: pointer;
+}
