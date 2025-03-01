@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#user-activity-stats {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-block: 1rem;
+}
+
+#user-activity-stats div {
+    background-color: white;
+    width: 100%;
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 5px;
+}
+
+#user-activity-stats div p:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #9BA1A5
+}
+
+#user-activity-stats div p:nth-child(2) {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#community-icon {
+    width: 2rem;
+}
+
+#active-users-header, #connected-iot-devices-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#active-users-and-system-resources {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+#active-users-and-alerts-container, #user-system-resources-container {
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#system-resources-meter {
+    margin-top: 0.5rem;
+}
+
+#system-cpu-usage-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#system-resources-meter div p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #757575;
+}
+
+#system-resources-meter div p span {
+    color: black;
+}
+
+.mapping-bar {
+    width: 100%;
+    margin-top: 0.3rem;
+    margin-bottom: 0.6rem;
+}
+
+.mapping-bar-inner {
+    width: 0%;
+}
+
+#system-memory-usage-bar {
+    background-color: #059669;
+}
+
+#system-network-usage-bar {
+    background-color: #7E3DED;
+}
+
+#connected-iot-devices-container {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#connected-iot-devices-header {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#camera-icon, #temperature-icon, #door-icon, #connection-icon {
+    width: 3rem;
+}
+
+#connected-iot-devices-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    margin-block: 1rem;
+}
+
+#connected-iot-devices-grid div {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+#connected-iot-devices-grid div p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}

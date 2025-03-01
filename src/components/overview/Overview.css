@@ -32,16 +32,14 @@
 #overview-stats-1 div p:first-child {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 0.9rem;
     color: #9BA1A5
 }
 
-#overview-stats-1 div p:last-child {
-    font-size: 0.8rem;
-}
-
 #overview-stats-1 div p:nth-child(2) {
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 #redShield-icon {

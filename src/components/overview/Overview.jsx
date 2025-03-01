@@ -1,31 +1,27 @@
-import './Dashboard.css';
+import './Overview.css';
 
-const Dashboard = () => {
-// const Dashboard = ({ label, value }) => {
+const Overview = () => {
+// const Overview = ({ label, value }) => {
     // const filledWidth = `${value}%`;
     
   return (
     <>
         <div id="overview-stats-1">
             <div id="total-threats-div">
-                <p><span>Total Threats (24h)</span> <img id='redShield-icon' src="/icons/redShield.png"/></p>
-                <p id="threats-count">0</p>
-                <p id="threats-comparison">12% From Yesterday</p>
+                <p><span>Total Warnings</span> <img id='redShield-icon' src="/icons/redShield.png"/></p>
+                <p id="warning-count">0</p>
             </div>
             <div id="active-alerts-div">
-                <p><span>Active Threats</span> <img id='bell-icon' src="/icons/bell.png"/></p>
-                <p id="alerts-count">0</p>
-                <p id="alerts-stat">4 Critical Alerts</p>
+                <p><span>Critical Threats</span> <img id='bell-icon' src="/icons/bell.png"/></p>
+                <p id="critical-count">0</p>
             </div>
             <div id="system-health-div">
                 <p><span>System Health</span> <img id='heart-icon' src="/icons/heart.png"/></p>
                 <p id="health-percentage">100%</p>
-                <p id="health-stat">All Systems Operational</p>
             </div>
             <div id="network-traffic-div">
                 <p><span>Network Traffic</span> <img id='traffic-icon' src="/icons/traffic.png"/></p>
                 <p id="traffic-count">1.2 TB</p>
-                <p id="traffic-stat">Normal Activity</p>
             </div>
         </div>
 
@@ -113,4 +109,4 @@ const Dashboard = () => {
 //     );
 //   }
 
-export default Dashboard
+export default Overview

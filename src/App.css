@@ -13,7 +13,6 @@ body {
     width: 100%;
     display: flex;
     gap: 15px;
-    /* background-color: green; */
 }
 
 #left-split {
@@ -22,4 +21,75 @@ body {
 
 #right-split {
     width: 100%;
+}
+
+.menuBar-div {
+    background-color: rgb(17,24,39);
+    width: 100%;
+    min-height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+#secureguard-header {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 5vh;
+    padding: 0.5rem;
+}
+
+.menuBar-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menuBar-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 20px;
+    border-radius: 10px
+}
+
+.menuBar-button:hover {
+    background-color: rgb(37,99,235);
+    cursor: pointer
+}
+
+#shield-icon {
+    width: 2rem;
+    margin-right: 1vw;
+}
+
+#home-icon {
+    width: 1.3rem;
+}
+
+#exclamation-icon, #bug-icon {
+    width: 1.2rem;
+}
+
+#roboface-icon, #people-icon, #docs-icon {
+    width: 1.4rem;
+}
+
+.menuBar-button.active {
+    background-color: #007bff;
+    color: white;
+  }
+
+.menuBar-button {
+    text-decoration: none;
 }

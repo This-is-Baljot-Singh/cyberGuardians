@@ -1,6 +1,6 @@
-import './Overview.css';
+import './Dashboard.css';
 
-const Overview = () => {
+const Dashboard = () => {
   return (
     <div id="overview">
         <div id="overview-left-split">
@@ -19,4 +19,4 @@ const Overview = () => {
   )
 }
 
-export default Overview
+export default Dashboard
