@@ -6,19 +6,19 @@ const UserActivity = () => {
         <div id="user-activity-stats">
             <div id="active-users-div">
                 <p><span>Active Users</span> <img id='community-icon' src="/icons/community.png"/></p>
-                <p id="active-users-count">0</p>
+                <p id="active-users-count">113</p>
             </div>
             <div id="connected-devices-div">
                 <p><span>Connected Devices</span> <img id='target-icon' src="/icons/target.png"/></p>
-                <p id="connected-devices-count">0</p>
+                <p id="connected-devices-count">131</p>
             </div>
             <div id="alerts-today-div">
                 <p><span>Alerts Today</span> <img id='alert-icon' src="/icons/alert.png"/></p>
-                <p id="alerts-count">0</p>
+                <p id="alerts-count">25</p>
             </div>
             <div id="system-load-div">
                 <p><span>System Load</span> <img id='monitor-icon' src="/icons/monitor.png"/></p>
-                <p id="load-percentage">0%</p>
+                <p id="load-percentage">60%</p>
             </div>
         </div>
 
@@ -31,19 +31,19 @@ const UserActivity = () => {
                 <header id="system-resources-header">System Resources</header>
                 <div id="system-resources-meter">
                     <div id='system-cpu-usage-div'>
-                        <p id="system-cpu-usage">CPU Usage <span id='cpu-usage-value'>0%</span></p>
+                        <p id="system-cpu-usage">CPU Usage <span id='cpu-usage-value'>15.76%</span></p>
                         <div className="mapping-bar">
                             <div className="mapping-bar-inner" id='system-cpu-usage-bar'></div>
                         </div>
                     </div>
                     <div id='system-memory-usage-div'>
-                        <p id="system-memory-usage">Memory <span id='memory-usage-value'>0%</span></p>
+                        <p id="system-memory-usage">Memory <span id='memory-usage-value'>2.65%</span></p>
                         <div className="mapping-bar">
                             <div className="mapping-bar-inner" id='system-memory-usage-bar'></div>
                         </div>
                     </div>
                     <div id='system-network-usage-div'>
-                        <p id="system-network-usage">Network <span id='network-usage-value'>0%</span></p>
+                        <p id="system-network-usage">Network <span id='network-usage-value'>57%</span></p>
                         <div className="mapping-bar">
                             <div className="mapping-bar-inner" id='system-network-usage-bar'></div>
                         </div>

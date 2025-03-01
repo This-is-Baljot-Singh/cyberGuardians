@@ -9,15 +9,15 @@ const Overview = () => {
         <div id="overview-stats-1">
             <div id="total-threats-div">
                 <p><span>Total Warnings</span> <img id='redShield-icon' src="/icons/redShield.png"/></p>
-                <p id="warning-count">0</p>
+                <p id="warning-count">37</p>
             </div>
             <div id="active-alerts-div">
                 <p><span>Critical Threats</span> <img id='bell-icon' src="/icons/bell.png"/></p>
-                <p id="critical-count">0</p>
+                <p id="critical-count">19</p>
             </div>
             <div id="system-health-div">
                 <p><span>System Health</span> <img id='heart-icon' src="/icons/heart.png"/></p>
-                <p id="health-percentage">100%</p>
+                <p id="health-percentage">99.2%</p>
             </div>
             <div id="network-traffic-div">
                 <p><span>Network Traffic</span> <img id='traffic-icon' src="/icons/traffic.png"/></p>
@@ -48,11 +48,11 @@ const Overview = () => {
                 <header id="system-resources-header">System Resources</header>
                 <div id="resources-meters">
                     <div className="meter" id="cpu-usage">
-                        <p id="cpu-usage-header">CPU Usage <span id="cpu-usage-value">45%</span></p>
+                        <p id="cpu-usage-header">CPU Usage <span id="cpu-usage-value">15.76%</span></p>
                         <div className="meter-bar" id="cpu-usage-bar"></div>
                     </div>
                     <div className="meter" id="memory-usage">
-                        <p id="memory-usage-header">Memory <span id="memory-usage-value">45%</span></p>
+                        <p id="memory-usage-header">Memory <span id="memory-usage-value">2.65%</span></p>
                         <div className="meter-bar" id="memory-usage-bar"></div>
                     </div>
                     <div className="meter" id="disk-space">

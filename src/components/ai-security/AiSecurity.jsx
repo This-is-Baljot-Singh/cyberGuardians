@@ -6,12 +6,12 @@ const AiSecurity = () => {
         <div id="ai-security-overview">
             <div id="active-threats-div">
                 <p><span>Active Threats</span> <img id='redShield-icon' src="/icons/redShield.png"/></p>
-                <p id="threats-count">0</p>
+                <p id="threats-count">129</p>
                 <p id="threats-comparison">12% From Yesterday</p>
             </div>
             <div id="blocked-ips-div">
                 <p><span>Blocked IPs</span> <img id='block-icon' src="/icons/block.png"/></p>
-                <p id="blocked-count">0</p>
+                <p id="blocked-count">12</p>
                 <p id="blocked-stat">+84 in last 24h</p>
             </div>
             <div id="response-time-div">

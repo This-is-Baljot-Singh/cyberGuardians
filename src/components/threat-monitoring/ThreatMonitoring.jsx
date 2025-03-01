@@ -70,34 +70,18 @@ const ThreatMonitoring = () => {
                 </div>
             </div>
             <div id="threats-stats-right-split">
-                <div id="mitre-attack-mapping-container">
-                    <header id="mitre-attack-mapping-header">MITRE Att&ck Mapping</header>
-                    <div id="mitre-attack-mapping-chart">
-                        <div className='mapping-bar-div'>
-                            <p id="initial-access">Initial Access</p>
-                            <div className="mapping-bar">
-                                <div className="mapping-bar-inner"
-                                id='initial-access-bar'></div>
-                            </div>
-                        </div>
-                        <div className='mapping-bar-div'>
-                            <p id="execution">Execution</p>
-                            <div className="mapping-bar">
-                                <div className="mapping-bar-inner"
-                                id='execution-bar'></div>
-                            </div>
-                        </div>
-                        <div className='mapping-bar-div'>
-                            <p id="persistence">Persistence</p>
-                            <div className="mapping-bar">
-                                <div className="mapping-bar-inner"
-                                id='persistence-bar'></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+                
                 <div id="ai-threat-analysis-container">
                     <header id="ai-threat-analysis-header">AI Threat Analysis</header>
+                    <div id="ai-threat-analysis-menu">
+                        <button className='ai-threat-menu-item' id="pattern-recognition">
+                            <p>Pattern Recognition</p>
+                        </button>
+                        <button className='ai-threat-menu-item' id="pattern-recognition">
+                            <p>Pattern Recognition</p>
+                        </button>
+                    </div>
                     <div id="ai-threat-analysis-menu">
                         <button className='ai-threat-menu-item' id="pattern-recognition">
                             <p>Pattern Recognition</p>

@@ -11,7 +11,16 @@
     justify-content: space-between;
     margin-block: 1rem;
 }
+#system-cpu-usage-bar{
+    width: 15.76%; 
+}
+#system-memory-usage-bar{
+    width: 2.65%;
+}
 
+#system-network-usage-bar{
+    width: 57%;
+}
 #user-activity-stats div {
     background-color: white;
     width: 100%;
